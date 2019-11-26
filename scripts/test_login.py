@@ -26,4 +26,3 @@ class TestLogin(object):
         self.page_factory.login_page.input_pwd(pwd)  # 输入密码
         self.page_factory.login_page.click_login_btn()  # 点击登录
         self.page_factory.login_page.click_com_btn()  # 点击确定
-        print('测试结束')
